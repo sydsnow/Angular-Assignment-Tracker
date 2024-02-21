@@ -1,0 +1,29 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+}
+.input {
+  margin-right: 10px;
+}
+.assignment-container {
+  padding: 10px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+#completed-button {
+  margin-top: 20px;
+  margin-left: 70px;
+  height: 30px;
+  background-color: rgb(185, 218, 185);
+  border: none;
+  border-radius: 3px;
+}
+ul {
+  list-style-type: none;
+}
+.assignment-container input[type="checkbox"]:checked {
+  accent-color: rgb(185, 218, 185) !important;
+}
